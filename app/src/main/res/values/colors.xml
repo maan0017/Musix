@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange_gradient">#FF794E</color>
+    <color name="orange_gradient_light">#FF8963</color>
+    <color name="songs_background">#D9EDBF</color>
+    <color name="grey">#858585</color>
+    <color name="grey_dark">#5E5E5E</color>
+    <color name="blue">#0028FF</color>
+    <color name="red_gradient">#FF4141</color>
+</resources>

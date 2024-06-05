@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/songs_background"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/songs_name"
+                android:layout_width="310dp"
+                android:layout_height="30dp"
+                android:text="song name"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/singer"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="singer"
+                android:layout_alignParentBottom="true"
+                android:textSize="14sp"
+                android:gravity="center_vertical"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/songs_more_option"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/more_options_vertically_icon" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

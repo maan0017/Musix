@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Musix</string>
+    <integer name="request_code">001</integer>
+
+    <string name="notification_channelName">Musix Notification</string>
+    <string name="channel_id">Music Player</string>
+</resources>
